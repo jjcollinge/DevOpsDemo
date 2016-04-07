@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DevOpsDemo", "src\DevOpsDemo\DevOpsDemo.xproj", "{D9E17D07-11D7-4196-854B-11D7EE13E0A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9207F92F-D215-4248-BE0B-C8FFA4962FF3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DevOpsDemo.UnitTests", "DevOpsDemo.UnitTests\DevOpsDemo.UnitTests.xproj", "{650A5A85-5956-491E-9312-5E25A27D1108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{D9E17D07-11D7-4196-854B-11D7EE13E0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E17D07-11D7-4196-854B-11D7EE13E0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E17D07-11D7-4196-854B-11D7EE13E0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650A5A85-5956-491E-9312-5E25A27D1108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650A5A85-5956-491E-9312-5E25A27D1108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650A5A85-5956-491E-9312-5E25A27D1108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650A5A85-5956-491E-9312-5E25A27D1108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D9E17D07-11D7-4196-854B-11D7EE13E0A0} = {7BAD4593-4A1B-4E05-882A-490D5BCFA4C1}
+		{650A5A85-5956-491E-9312-5E25A27D1108} = {9207F92F-D215-4248-BE0B-C8FFA4962FF3}
 	EndGlobalSection
 EndGlobal
